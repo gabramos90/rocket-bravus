@@ -44,19 +44,20 @@ export const AsideContainer = styled.aside`
 `
 
 export const MenuContainer = styled.div`
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 `
 
 export const NotifierArea = styled.div`
   margin-top: 1rem;
-  width: 240px;
-  height: 390px;
+  width: 15rem;
+  height: 25rem;
   border-radius: 15px;
   background: ${(props) => props.theme['gray-900']};
   overflow-y: scroll;
   overflow-x: hidden;
+  flex: 1;
 
   ::-webkit-scrollbar {
     width: 0;
